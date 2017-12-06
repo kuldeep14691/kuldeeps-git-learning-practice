@@ -3,4 +3,5 @@ GIT commands learned
 git log
 git diff
 git checkout
-git clone
+git clone:
+  Syntax- git clone url_of_repository
