@@ -2,6 +2,9 @@ GIT commands learned
 --------------------
 git log
 git diff
-git checkout
+git checkout:
+  Syntax- git checkout commit_id
+          This will make the mentioned commit id as your current version of repository. This means your repository will be back tracked to 
+          the old version of mentioned commit.
 git clone:
   Syntax- git clone url_of_repository
