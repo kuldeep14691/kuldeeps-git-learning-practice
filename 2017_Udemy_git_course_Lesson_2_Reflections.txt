@@ -1,0 +1,39 @@
+What happens when you initialize a repository? Why do you need to do it?
+Ans: Initializing a repository simply means to convert a simple windows directory to git directory. If we think about this conversion it 
+just would be creating the the basic  git set up files in that repository. These setup files are required to handle the commands/operations
+which we usually perform on git repo/directory.
+
+How is the staging area different from the working directory and the repository?
+Ans No idea
+What value do you think it offers?
+Ans No idea
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+Ans No idea
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+Ans- Branch is a copy of you current repository, which is made just to avoid any jumbelsale in you head repository. 
+I mean to say while doing changes if there any messy things happens in your branch it atleast won't corrupt you core git repository. 
+You can again checkout you repository to new branch.
+Also it gives user additional layer to finally review verify the changes before committing to git repository.
+
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+Ans- Merging combines changes of 2 copies of a file in on final copy which can be used as a resultant.
+It gives user a broad understanding at entire repository level
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+Ans-Automatic merge is not good:
+	- There could be dependency in changes being done, auto merge would mess it up
+	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans- Working directory contains all files which you have changed after last checkout
+	However staging area contains only those files which you will add through git add command for next commit
+	As per my understanding next commit would only consider the files added to staging area. It would ignore other
+	changes not added to staging area.
