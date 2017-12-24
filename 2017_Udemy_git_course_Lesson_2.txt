@@ -1,6 +1,9 @@
 GIT commands learned
 --------------------
-git log
+git log:
+  git log --graph --oneline branch_name_01 branch_name_02 (to display graph of commits)
+  
+    
 git diff
 git checkout:
   Syntax- git checkout commit_id
@@ -8,3 +11,13 @@ git checkout:
           the old version of mentioned commit.
 git clone:
   Syntax- git clone url_of_repository
+git branch branch_name:
+  To create a branch of your current repository.
+  git branch_name -d branch_name:  To delete a branch add -d parameter like this.
+  To list out all branches- 1. git branch (without any parameter), 2.git branch -r
+
+git merge branch_01 branch_02:
+  This command would merge the mentioned commits to one final version. To merge anything to master branch mention name as "master".
+
+git show commit_id:
+  To see the changes committed in commit id
