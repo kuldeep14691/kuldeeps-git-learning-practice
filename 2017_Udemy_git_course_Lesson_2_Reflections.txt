@@ -33,7 +33,22 @@ Ans-Automatic merge is not good:
 	- There could be dependency in changes being done, auto merge would mess it up
 	
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-Ans- Working directory contains all files which you have changed after last checkout
+Ans- 
+Staging area & Working directory both initially contains the most recent commit which is done in repository.
+Then user first adds his change to working directory, till this point staging area would contain the recent commit code not the working directory copy
+Then user adds his change to staging area for commit
+	At this point Working directory & staging area both would contain same source
+Working directory contains all files which you have changed after last checkout
 	However staging area contains only those files which you will add through git add command for next commit
 	As per my understanding next commit would only consider the files added to staging area. It would ignore other
 	changes not added to staging area.
+Once user commits change it make working directory/Straging area/Repository all in sync
+Compare working directory with Staging area- 
+	User can run GIT DIFF without any parameter for this
+Compare Staging are with repository-
+	Use command git diff -staged (this will show all the differences in staging area and repository)
+
+How to connect your local repository to git hub?
+
+What is automatic and manual merging? How resolve conflict while merging 2 sources?
+
