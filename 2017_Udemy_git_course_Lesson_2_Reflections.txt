@@ -3,8 +3,23 @@ Ans: Initializing a repository simply means to convert a simple windows director
 just would be creating the the basic  git set up files in that repository. These setup files are required to handle the commands/operations
 which we usually perform on git repo/directory.
 
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+Ans- Merging combines changes of 2 copies of a file in on final copy which can be used as a resultant.
+It gives user a broad understanding at entire repository level
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+Ans-Automatic merge is not good:
+	- There could be dependency in changes being done, auto merge would mess it up
+
 How is the staging area different from the working directory and the repository?
-Ans No idea
+Ans Working directory contains all files which you have changed after last checkout
+	However staging area contains only those files which you will add through git add command for next commit
+	As per my understanding next commit would only consider the files added to staging area. It would ignore other
+	changes not added to staging area.
+
 What value do you think it offers?
 Ans No idea
 
